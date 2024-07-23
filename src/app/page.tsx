@@ -1,5 +1,6 @@
 import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, Laptop2, LayoutList, SkipForward, Repeat, Mic2, Volume, Maximize2 } from 'lucide-react'
 import Image from 'next/image'
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
@@ -22,22 +23,20 @@ export default function Home() {
             </a>
             <a href="" className='flex items-center gap-3 text-sm font-semibold text-zinc-200'>
               <Library />
-              Your Libary
+              Your Library
             </a>
           </nav>
           <nav className='mt-6 pt-6 border-t border-zinc-400 flex flex-col gap-3'>
-
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Treino</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Jiu Jitsu</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Niver funk</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>My playlist aleatória</a>
-            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Trap Brasil </a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Trap Brasil</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Funk Mandela</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Hip hop Anos 2000</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Rock in Roll</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>BK todas brabas</a>
             <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Kayblack</a>
-
           </nav>
         </aside>
         <main className="flex-1 p-6">
@@ -54,38 +53,42 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-4 mt-4">
             <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
-              <strong>Racionais Mc's</strong>
+              <strong>Racionais Mcs</strong>
               <button className='w-12 h-10 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
             <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
               <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
-              <strong>Racionais Mc's</strong>
+              <strong>Racionais Mcs</strong>
               <button className='w-12 h-10 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
-              <strong>Racionais Mc's</strong>
+            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
+              <strong>Racionais Mcs</strong>
               <button className='w-12 h-10 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
-              <strong>Racionais Mc's</strong>
+            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
+              <strong>Racionais Mcs</strong>
               <button className='w-12 h-10 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
-              <strong>Racionais Mc's</strong>
+            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
+              <strong>Racionais Mcs</strong>
               <button className='w-12 h-10 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
-            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
-              <strong>Racionais Mc's</strong>
+            <a href="" className='bg-white/5 rounded-md group overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
+              <Image src="/album.jpg" alt="album racionais" width={100} height={100} />
+              <strong>Racionais Mcs</strong>
               <button className='w-12 h-10 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible'>
                 <Play />
               </button>
@@ -163,6 +166,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-
   )
 }
