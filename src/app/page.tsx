@@ -96,27 +96,27 @@ export default function Home() {
           <div className='grid grid-cols-5 gap-4 mt-4'>
             <a href="" className='bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10'>
               <Image src="/album.jpg" className='w-full' alt="album MC Ig" width={120} height={100} />
-              <strong className='font-semibold'>Daily Mix Mc's</strong>
+              <strong className='font-semibold'>Daily Mix Mcs</strong>
               <span className='text-sm text-zinc-400'>Wallows, COIN, girl in red and more</span>
             </a>
             <a href="" className='bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10'>
               <Image src="/album.jpg" className='w-full' alt="album MC Ig" width={120} height={100} />
-              <strong className='font-semibold'>Daily Mix Mc's</strong>
+              <strong className='font-semibold'>Daily Mix Mcs</strong>
               <span className='text-sm text-zinc-400'>Wallows, COIN, girl in red and more</span>
             </a>
             <a href="" className='bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10'>
               <Image src="/album.jpg" className='w-full' alt="album MC Ig" width={120} height={100} />
-              <strong className='font-semibold'>Daily Mix Mc's</strong>
+              <strong className='font-semibold'>Daily Mix Mcs</strong>
               <span className='text-sm text-zinc-400'>Wallows, COIN, girl in red and more</span>
             </a>
             <a href="" className='bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10'>
               <Image src="/album.jpg" className='w-full' alt="album MC Ig" width={120} height={100} />
-              <strong className='font-semibold'>Daily Mix Mc's</strong>
+              <strong className='font-semibold'>Daily Mix Mcs</strong>
               <span className='text-sm text-zinc-400'>Wallows, COIN, girl in red and more</span>
             </a>
             <a href="" className='bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10'>
               <Image src="/album.jpg" className='w-full' alt="album MC Ig" width={120} height={100} />
-              <strong className='font-semibold'>Daily Mix Mc's</strong>
+              <strong className='font-semibold'>Daily Mix Mcs</strong>
               <span className='text-sm text-zinc-400'>Wallows, COIN, girl in red and more</span>
             </a>
           </div>
@@ -126,7 +126,7 @@ export default function Home() {
         <div className='flex items-center gap-3'>
           <Image src="/album.jpg" alt="album MC Ig" width={56} height={56} />
           <div className='flex flex-col'>
-            <strong className='font-normal'>Racionais Mc's</strong>
+            <strong className='font-normal'>Racionais Mcs</strong>
             <span className='text-xs text-zinc-400'>Jesus Chorou</span>
           </div>
         </div>
